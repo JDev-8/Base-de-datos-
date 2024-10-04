@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/login.css" />
+    <link rel="icon" href="Assets/Imagenes/Favicon.png" />
+    <title>Inicio de Sesión</title>
+  </head>
+  <body>
+    <section class="login">
+      <h1 class="login-title">Inicio de Sesión</h1>
+      <form class="login-form">
+        <div class="login-img">
+          <img
+            src="Assets/Icons/user-solid.svg"
+            alt="User"
+            style="width: 75px; height: 75px"
+          />
+        </div>
+        <div class="login-container">
+          <label for="usuario" class="login-label">Nombre de usuario</label>
+          <input
+            type="text"
+            name="user"
+            id="user"
+            placeholder="Escriba su nombre de usuario"
+          />
+          <label for="password" class="login-label">Contraseña</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Introdusca su contraseña"
+          />
+          <input type="submit" class="login-btn" value="Enviar" />
+        </div>
+        <div class="login-actions">
+          <a href="#">¿Olvidó su contraseña?</a>
+          <a href="#">No te has registrado | ¡Registrate! </a>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <h2 class="footer-title">
+        Copyright © Sistema Nacional de Orquestas - Núcleo Chivacoa. 2024
+      </h2>
+    </footer>
+  </body>
+</html>
